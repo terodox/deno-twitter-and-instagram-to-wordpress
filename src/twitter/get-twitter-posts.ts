@@ -16,7 +16,6 @@ export async function getTwitterPosts(username: string) {
 }
 
 function getTimeline(twino: Twino, username: string) {
-    twino.
     return new Promise((resolve, reject) => {
         twit.get('statuses/user_timeline', { count: 20, screen_name: username }, (err, data) => {
             if (err) {

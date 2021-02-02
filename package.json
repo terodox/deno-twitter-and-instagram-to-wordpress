@@ -1,0 +1,20 @@
+{
+  "name": "deno-twitter-and-instagram-to-wordpress",
+  "version": "1.0.0",
+  "description": "A deno project to port twitter and instagram posts to wordpress",
+  "main": "import-map.js",
+  "scripts": {
+    "start": "deno run --allow-net --import-map=import-map.json --unstable src/index.ts",
+    "test": "deno test --import-map=import-map.json --unstable"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terodox/deno-twitter-and-instagram-to-wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terodox/deno-twitter-and-instagram-to-wordpress/issues"
+  },
+  "homepage": "https://github.com/terodox/deno-twitter-and-instagram-to-wordpress#readme"
+}

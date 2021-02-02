@@ -2,7 +2,6 @@ import {
   assertEquals,
   assertMatch,
 } from "https://deno.land/std@0.80.0/testing/asserts.ts";
-import { Stub, stub } from "https://deno.land/x/mock@v0.9.4/stub.ts";
 import { Fetch } from "./fetch.ts";
 
 let fetchArgs: any[] = [];
