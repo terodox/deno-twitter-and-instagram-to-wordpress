@@ -4,7 +4,7 @@
   "description": "A deno project to port twitter and instagram posts to wordpress",
   "main": "import-map.js",
   "scripts": {
-    "start": "deno run --allow-net --import-map=import-map.json --unstable src/index.ts",
+    "start": "deno run --allow-net --allow-read --import-map=import-map.json --unstable src/index.ts",
     "test": "deno test --import-map=import-map.json --unstable"
   },
   "repository": {

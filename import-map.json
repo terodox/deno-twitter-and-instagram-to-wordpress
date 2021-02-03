@@ -1,5 +1,6 @@
 {
   "imports": {
-     "fmt/": "https://deno.land/std@0.85.0/fmt/"
+     "testing/": "https://deno.land/std@0.80.0/testing/",
+     "dotenv/": "https://deno.land/x/dotenv/"
   }
 }

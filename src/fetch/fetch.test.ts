@@ -1,7 +1,7 @@
 import {
   assertEquals,
   assertMatch,
-} from "https://deno.land/std@0.80.0/testing/asserts.ts";
+} from "testing/asserts.ts";
 import { Fetch } from "./fetch.ts";
 
 let fetchArgs: any[] = [];
