@@ -1,6 +1,7 @@
 {
   "imports": {
      "testing/": "https://deno.land/std@0.80.0/testing/",
-     "dotenv/": "https://deno.land/x/dotenv/"
+     "dotenv/": "https://deno.land/x/dotenv/",
+     "another_cookiejar/": "https://deno.land/x/another_cookiejar@v2.2.3/"
   }
 }
